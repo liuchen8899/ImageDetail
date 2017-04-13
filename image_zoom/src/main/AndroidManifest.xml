@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.edu.jlnu.image_zoom">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true"
+
+                 android:label="@string/app_name"
+                 android:supportsRtl="true">
+
+        <activity android:name=".ImageActivity"
+                  android:theme="@style/AppTheme"
+                  android:screenOrientation="portrait"
+
+            />
+
+    </application>
+
+</manifest>
